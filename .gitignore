@@ -1,9 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
 # Logs
-logs
+/logs
+>>>>>>> ac9b08f (first commit)
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -20,12 +24,19 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+<<<<<<< HEAD
 *.lcov
+=======
+>>>>>>> ac9b08f (first commit)
 
 # nyc test coverage
 .nyc_output
 
+<<<<<<< HEAD
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+=======
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+>>>>>>> ac9b08f (first commit)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -44,21 +55,27 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
+<<<<<<< HEAD
 # TypeScript cache
 *.tsbuildinfo
 
+=======
+>>>>>>> ac9b08f (first commit)
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
 
+=======
+>>>>>>> ac9b08f (first commit)
 # Optional REPL history
 .node_repl_history
 
@@ -70,11 +87,15 @@ typings/
 
 # dotenv environment variables file
 .env
+<<<<<<< HEAD
 .env.test
+=======
+>>>>>>> ac9b08f (first commit)
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
+<<<<<<< HEAD
 # Next.js build output
 .next
 
@@ -87,11 +108,22 @@ dist
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
+=======
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+>>>>>>> ac9b08f (first commit)
 
 # vuepress build output
 .vuepress/dist
 
 # Serverless directories
+<<<<<<< HEAD
 .serverless/
 
 # FuseBox cache
@@ -102,3 +134,18 @@ dist
 
 # TernJS port file
 .tern-port
+=======
+.serverless
+
+# IDE / Editor
+.idea
+
+# Service worker
+sw.*
+
+# macOS
+.DS_Store
+
+# Vim swap files
+*.swp
+>>>>>>> ac9b08f (first commit)
